@@ -40,21 +40,8 @@
 
 #### Інтерфейс Cursor
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  [Файли]  │        Редактор (код)         │   [AI Chat]      │
-│           │                               │                  │
-│  📁 app   │  export default function() {  │  🤖 Ask AI...     │
-│  📁 comp  │    return (                   │                  │
-│  📄 page  │      <div>Hello</div>         │  "Додай кнопку   │
-│           │    )                           │   з hover-      │
-│           │  }                             │   ефектом"      │
-│           │                               │                  │
-├───────────┴───────────────────────────────┴──────────────────┤
-│  Terminal (тут запускаємо Claude Code)                       │
-│  $ claude                                                    │
-└──────────────────────────────────────────────────────────────┘
-```
+![[Cursor-AI-Interface--Explained-in-Detail.webp]]
+
 
 #### Ключові зони:
 1. **Sidebar (ліворуч)** — файли та папки проєкту
@@ -219,8 +206,15 @@ Claude Code тримає в пам'яті всю вашу розмову — ц�
 3. **Ctrl+L:** Відкрий чат → "Поясни мені структуру HTML файлу який ми створили"
 
 Зверни увагу на різницю — кожен спосіб зручний для свого типу задач.
-https://www.youtube.com/watch?v=tB2v16AKN9I
----
+
+<iframe width="100%" height="500" 
+        src="https://www.youtube.com/embed/tB2v16AKN9I" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+</iframe>
 
 ## Референси
 
