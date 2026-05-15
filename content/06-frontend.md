@@ -162,14 +162,9 @@ import Link from 'next/link'
 
 ### Крок 1: Створи Next.js проєкт (10 хв)
 
-```bash
-mkdir competitor-tracker
-cd competitor-tracker
+Попроси Claude Code:
 ```
-
-Запусти Claude Code та попроси:
-```
-Створи новий Next.js проєкт з:
+Створи папку competitor-tracker і в ній новий Next.js проєкт з:
 - TypeScript
 - Tailwind CSS
 - App Router
@@ -240,8 +235,7 @@ cd competitor-tracker
 3. Перевір мобільну версію
 4. Збережи:
    ```bash
-   git add .
-   git commit -m "MVP фронтенд — основні сторінки"
+   Збережи все в git з описом "MVP фронтенд — основні сторінки"
    ```
 
 ---

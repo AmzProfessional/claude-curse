@@ -165,15 +165,9 @@ Cron — це планувальник який запускає задачі з
 
 #### Крок 1: Підготовка (5 хв)
 
-```bash
-mkdir competitor-tracker
-cd competitor-tracker
-git init
+Попроси Claude Code:
 ```
-
-Створи CLAUDE.md:
-```
-Створи CLAUDE.md з описом проєкту:
+Створи папку competitor-tracker, ініціалізуй git, і створи CLAUDE.md з описом проєкту:
 Система моніторингу конкурентів на Amazon.
 Збирає дані 50 лістингів через API щовечора.
 Порівнює зміни: день/тиждень/місяць.
@@ -259,11 +253,9 @@ git init
 
 #### Крок 5: Запуск та тестування (10 хв)
 
-```bash
-pip install pandas matplotlib
-python seed_data.py        # Згенерувати тестові дані
-python analyzer.py         # Перевірити аналіз
-python reporter.py --period today  # Створити звіт
+```
+Встанови потрібні бібліотеки, згенеруй тестові дані,
+запусти аналіз і створи звіт за сьогодні.
 ```
 
 Перевір що:
@@ -274,9 +266,8 @@ python reporter.py --period today  # Створити звіт
 
 #### Крок 6: Збережи в Git (5 хв)
 
-```bash
-git add .
-git commit -m "Add competitor analytics engine with daily/weekly/monthly comparison"
+```
+Збережи все в git з описом "Add competitor analytics engine"
 ```
 
 ### Бонус: Telegram-бот для звітів (20 хв)

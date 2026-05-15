@@ -228,12 +228,10 @@ Anon Key: [твій ключ]
 
 ### Крок 5: Git (5 хв)
 
-```bash
-git add .
-git commit -m "Connect Supabase, add CSV import and real data to dashboard"
 ```
-
-**Перевір перед комітом:** `git diff` — чи немає API ключів в коді?
+Збережи все в git з описом "Connect Supabase and add real data to dashboard".
+Перед комітом перевір що в коді немає API ключів.
+```
 
 ---
 

@@ -98,18 +98,13 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJ...
 
 ### Крок 2: GitHub репозиторій (5 хв)
 
-Якщо проєкт ще не на GitHub:
+Якщо проєкт ще не на GitHub, попроси Claude Code:
 
-```bash
-# Створити репозиторій на GitHub (через gh CLI або веб)
-gh repo create my-mvp --public --source=. --push
+```
+Створи публічний GitHub репозиторій my-mvp і запуш туди проєкт.
 ```
 
-Або вручну:
-1. GitHub.com → New Repository
-2. Назва: my-mvp
-3. Public
-4. Не додавай README
+Або створи вручну на GitHub.com → New Repository → і попроси Claude підключити його.
 5. Скопіюй команди для push existing repo
 
 ### Крок 3: Деплой на Vercel (10 хв)
